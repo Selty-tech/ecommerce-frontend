@@ -59,6 +59,9 @@ npm run dev
 
 ---
 
+## 🔗 Backend Repository
+https://github.com/Selty-tech/ecommerce-backend
+
 ## 🎯 Current Goal
 
 I am currently preparing for an Ausbildung as an **Anwendungsentwickler** in Germany.
