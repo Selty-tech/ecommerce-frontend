@@ -1,54 +1,84 @@
-# React + TypeScript + Vite
+# 🛒 E-commerce Frontend Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 About This Project
 
-Currently, two official plugins are available:
+This project is a frontend implementation of an e-commerce website (Amazon-like), built as part of my learning journey in web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The base project was created by following a tutorial (SuperSimpleDev) to understand how real-world applications are structured and how frontend interacts with backend APIs.
 
-## Expanding the ESLint configuration
+After completing the tutorial, I focused on understanding the code and structure rather than just copying it.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Features
+
+* Product listing page
+* Add to cart functionality
+* Checkout system
+* Orders page
+* Order tracking page
+* Dynamic data from backend API
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* JavaScript / TypeScript
+* Vite
+* CSS
+
+---
+
+## 🧠 What I Learned
+
+* Structuring a larger React application
+* Working with multiple pages and components
+* Connecting frontend with backend APIs
+* Managing application state
+* Debugging and understanding existing code
+* Handling user interactions in a real project
+
+---
+
+## ⚠️ Note
+
+This project is based on a tutorial.
+My goal was to understand how a full application works and how frontend and backend communicate.
+
+---
+
+## ▶️ How to Run Locally
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+⚠️ Requires backend to be running locally.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🎯 Current Goal
+
+I am currently preparing for an Ausbildung as an **Anwendungsentwickler** in Germany.
+
+My focus is on:
+
+* improving my frontend skills
+* understanding code deeply
+* starting to build projects independently
+
+---
+
+## 👤 About Me
+
+* Learning web development for ~1 year
+* Experience with JavaScript, HTML, CSS, React
+* Currently moving from tutorial-based learning to real projects
+
+---
+
+## 📬 Feedback
+
+I am still learning, so any feedback is very welcome 🙂
