@@ -10,6 +10,21 @@ After completing the tutorial, I focused on understanding the code and structure
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+![Home](./screenshots/home.png)
+
+### Checkout
+![Checkout](./screenshots/checkout.png)
+
+### Orders
+![Orders](./screenshots/orders.png)
+
+### Tracking
+![Tracking](./screenshots/tracking.png)
+
+
 ## 🚀 Features
 
 * Product listing page
