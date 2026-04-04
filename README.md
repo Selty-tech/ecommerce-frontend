@@ -6,26 +6,41 @@ This project is a frontend implementation of an e-commerce website (Amazon-like)
 
 The base project was created by following a tutorial (SuperSimpleDev) to understand how real-world applications are structured and how frontend interacts with backend APIs.
 
-After completing the tutorial, I focused on understanding the code and structure rather than just copying it.
+After completing the tutorial, I focused on understanding the code and structure rather than just copying it, and started modifying the project.
+
+---
+
+## 🌐 Live Demo
+
+⚠️ Frontend is deployed. Backend runs locally.
+
+👉 https://selty-tech.github.io/ecommerce-frontend/
 
 ---
 
 ## 📸 Screenshots
 
 ### Home Page
+
 ![Home](./screenshots/home.png)
 
 ### Checkout
+
 ![Checkout](./screenshots/checkout.png)
 
 ### Orders
+
 ![Orders](./screenshots/orders.png)
 
 ### Tracking
+
 ![Tracking](./screenshots/tracking.png)
 
+---
 
 ## 🚀 Features
+
+### Core functionality (tutorial-based)
 
 * Product listing page
 * Add to cart functionality
@@ -33,6 +48,12 @@ After completing the tutorial, I focused on understanding the code and structure
 * Orders page
 * Order tracking page
 * Dynamic data from backend API
+
+### My improvements
+
+* 🔍 Product search functionality (using query parameters and API filtering)
+* ⌨️ Search triggered with Enter key
+* Improved understanding and modification of existing codebase
 
 ---
 
@@ -42,6 +63,7 @@ After completing the tutorial, I focused on understanding the code and structure
 * JavaScript / TypeScript
 * Vite
 * CSS
+* Axios
 
 ---
 
@@ -51,8 +73,9 @@ After completing the tutorial, I focused on understanding the code and structure
 * Working with multiple pages and components
 * Connecting frontend with backend APIs
 * Managing application state
-* Debugging and understanding existing code
-* Handling user interactions in a real project
+* Handling URL query parameters (`?search=...`)
+* Debugging and modifying existing code
+* Improving user interaction (search feature)
 
 ---
 
@@ -60,6 +83,8 @@ After completing the tutorial, I focused on understanding the code and structure
 
 This project is based on a tutorial.
 My goal was to understand how a full application works and how frontend and backend communicate.
+
+I extended the project by adding my own features and modifying existing functionality.
 
 ---
 
@@ -75,7 +100,10 @@ npm run dev
 ---
 
 ## 🔗 Backend Repository
+
 https://github.com/Selty-tech/ecommerce-backend
+
+---
 
 ## 🎯 Current Goal
 
@@ -85,7 +113,7 @@ My focus is on:
 
 * improving my frontend skills
 * understanding code deeply
-* starting to build projects independently
+* building projects beyond tutorials
 
 ---
 
@@ -93,7 +121,7 @@ My focus is on:
 
 * Learning web development for ~1 year
 * Experience with JavaScript, HTML, CSS, React
-* Currently moving from tutorial-based learning to real projects
+* Transitioning from tutorial-based learning to independent development
 
 ---
 
