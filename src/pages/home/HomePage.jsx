@@ -7,10 +7,9 @@ import { useSearchParams } from 'react-router';
 
 export function HomePage({ cart, loadCart }) {
   const [products, setProducts] = useState([]);
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   const search = searchParams.get('search') || '';
-  const [inputValue, setInputValue] = useState(search);
 
   useEffect(() => {
     const getHomeData = async () => {
@@ -25,32 +24,11 @@ export function HomePage({ cart, loadCart }) {
     getHomeData();
   }, [search]);
 
-  function handleSearch() {
-    setSearchParams({ search: inputValue });
-  }
-
-  function handleKeyDown(e) {
-    if (e.key === 'Enter') {
-      handleSearch();
-    }
-  }
-
   return (
     <>
       <Header cart={cart} />
 
       <div className="home-page">
-        {/* 🔍 Search Bar */}
-        <div style={{ marginBottom: '20px' }}>
-          <input
-            placeholder="Search products..."
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-            onKeyDown={handleKeyDown}
-          />
-          <button onClick={handleSearch}>Search</button>
-        </div>
-
         <ProductsGrid products={products} loadCart={loadCart} />
       </div>
     </>
